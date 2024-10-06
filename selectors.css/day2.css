@@ -1,0 +1,32 @@
+.html{
+    color: rgba(255, 0, 0, 0.644);
+}
+
+.css{
+    color: blue;
+}
+
+.python{
+    color: rgb(22, 188, 22);
+}
+
+.react{
+    color: yellow;
+}
+
+#html {
+    font-size: 32px;
+}
+
+#css {
+    font-size: 32px;
+}
+
+#python {
+    font-size: 32px;
+}
+
+[class]{
+    background-color: aqua;
+
+}
