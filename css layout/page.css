@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+
+/* this is body */
+body{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 0, 0);
+}
+header ,footer{
+    height: 20%;
+    border: 1px solid black;
+}
+
+/* header */
+header{
+    background-color: lightpink;
+}
+
+
+/* main div */
+.main{
+    border: 1px solid black;
+    height: 60%;
+    background-color: lightskyblue;
+    display: flex;
+}
+/* inner work here */
+aside{
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+}
+main{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+
+
+/* footer */
+footer{
+    background-color: lightgoldenrodyellow;
+}
+
