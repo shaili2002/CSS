@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(17,15,15);
+    height: 120px;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    float: left;
+    margin: 50px 80px 70px 100px;
+    font-size: 20px;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+.navbar ul li a:hover{
+    color: darkorange;
+    border-bottom: 5px solid darkorange;
+    transition: ease-in;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+}
+
+/* home page */
+.home{
+    background-color: rgb(11, 11, 11);
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img img{
+    width: 480px;
+    height: 300px;
+}
+
+.left-text{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Hello-text{
+    color: darkorange;
+}
+
+.webb{
+    border-bottom: 4px solid darkorange;
+    padding-bottom: 20px;
+}
+
+.name{
+    animation-name: name_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name_animation{
+    from{color: red}
+    to{color: darkorange;}
+
+}
+
+.project{
+    padding: 3rem 0;
+    
+    
+}
+.project-div{
+    padding: 40px 0px;
+    height: 600px;
+    background-color: #ececec;
+
+
+}
+
+.heading{
+    padding: 0px 0px 80px 0px;
+    /* margin: 80px 0px 0px 0px; */
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: heading_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading_animation{
+    25%{}
+    50%{color: red;}
+    75%{color: darkorange;}
+}
+
+.project-image{
+    margin: 20px 0px;
+}
+
+.project .project-image img {
+    width: 29%;
+    height: 250px;
+    margin-top: 1px;
+    box-shadow: 7px 7px 10px 0px #727272;
+    margin-left: 44px;
+    
+}
+
+.project-image img:hover{
+    transform: scale(1.09);
+    animation-name: border-animation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border-animation{
+    25%{border-bottom: 2px solid darkorange;}
+    50%{border-right: 2px solid darkorange;}
+    75%{border-top: 2px solid darkorange;}
+    100%{border-left: 2px solid darkorange;} 
+}
